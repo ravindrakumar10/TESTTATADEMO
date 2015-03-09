@@ -34,7 +34,7 @@ public class UiExperienceLevelEnumEditor extends DefaultEnumUIEditor
 	public HtmlBasedComponent createViewComponent(final Object initialValue, final Map<String, ?> parameters, final EditorListener listener)
 	{
 		final EnumerationService enumService = (EnumerationService) Registry.getApplicationContext().getBean("enumerationService");
-
+       System.out.println("Check");
 		setAvailableValues(enumService.getEnumerationValues(UiExperienceLevel._TYPECODE));
 		return super.createViewComponent(initialValue, parameters, listener);
 	}
