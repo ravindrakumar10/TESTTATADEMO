@@ -32,6 +32,7 @@ public class GeneratedTrainingCoreConstants
 		public static class SwatchColorEnum
 		{
 			public static final String BLACK = "BLACK".intern();
+			public static final String BLACK = "BLACK".intern();
 			public static final String BLUE = "BLUE".intern();
 			public static final String BROWN = "BROWN".intern();
 			public static final String GREEN = "GREEN".intern();
