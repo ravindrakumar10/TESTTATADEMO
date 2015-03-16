@@ -37,6 +37,7 @@ public class MockCalculateExternalTaxesStrategy implements CalculateExternalTaxe
 
 		if (abstractOrder == null)
 		{
+			System.out.println("Check");
 			throw new IllegalStateException("Order is null. Cannot apply external tax to it.");
 		}
 
